@@ -9,7 +9,7 @@ If you actually want to have a chat with the chatbot, you can clone this project
 All the code for the primitive chatbot can be found in artificial_agent.py.
 
 If you want to see the accuracy measures of the all models, make sure you run deep_nlp_program.py
-![alt text](https://raw.githubusercontent.com/yomna0mar/Deep-NLP-Challenge/master/Accuracy Measures.jpeg)
+![alt text](https://raw.githubusercontent.com/yomna0mar/Deep-NLP-Challenge/master/accuracy_measures.jpeg)
 
 To run any code, you can use an IDE or simply calling the .py file from the command line "python ./{filename}.py".
 Make sure that you are in the directory that contains the .py file before running it from the command line!
