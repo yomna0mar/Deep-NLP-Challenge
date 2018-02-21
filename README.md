@@ -18,7 +18,7 @@ Make sure that you are in the directory that contains the .py file before runnin
 # Explanations & Clarifications on the Code
 I decided to use python for this implementation because it is an extremely powerful language when it comes to data analysis and has extensive libraries about machine learning algorithms and natural language manipulation.
 
-After playing arounf the Kaggle dataset, I found that the dataset itself was not organized to my liking, and in order to tackle the problem at hand, I had to preprocess the data. First, I took both datasets and tokenized them by words using nltk. Then, using the English language stopwords, I removed any words that have no impact on the classification of the model I am going to implement.
+After playing around the Kaggle dataset, I found that the dataset itself was not organized to my liking, and in order to tackle the problem at hand, I had to preprocess the data. First, I took both datasets and tokenized them by words using nltk. Then, using the English language stopwords, I removed any words that have no impact on the classification of the model I am going to implement.
 
 This wasn't enough; however, I still need to extract useful features about the data. So, I extracted the top most commonly used words in the dataset and used those as my features. Through more data preprocessing, I changed the tokenized words in each sample of the dataset into a dictionary of key-value pairs, where the keys are the most common words and the values are booleans: True when the key is a word in the sample.
 
