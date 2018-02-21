@@ -31,6 +31,6 @@ Finally, I was able to train my data against several models. The basic idea was 
 
 **Random Forest, Logistic Regression, SGD Classification & Linear SVM:** With the idea of improving classification accuracy in mind, I ventured out to try some of the most popluar classification algorithms. Some performed very well, but were still subject to the nature of the dataset itself. The problem still remained that some of these algorithms were volatile, i.e. producing a different accuracy every time.
 
-**_SOLUTION_ Voted Classifier:** By choosing the top performing algorithm on each dataset, I created my own classifier class that runs every test sample against those top classifiers and takes their vote on the outcome. The most commonly classified class is the "true" class of the provided test sample. This indeed did increase accuracy, but not by as much as I had hoped.
+**_SOLUTION:_ Voted Classifier:** By choosing the top performing algorithm on each dataset, I created my own classifier class that runs every test sample against those top classifiers and takes their vote on the outcome. The most commonly classified class is the "true" class of the provided test sample. This indeed did increase accuracy, but not by as much as I had hoped.
 
-###### Hope you enjoy chatting with this very simple chatbot :)
+## Hope you enjoy chatting with this very simple chatbot :)
