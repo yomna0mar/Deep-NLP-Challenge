@@ -33,4 +33,4 @@ Finally, I was able to train my data against several models. The basic idea was 
 
 **_SOLUTION:_ Voted Classifier:** By choosing the top performing algorithm on each dataset, I created my own classifier class that runs every test sample against those top classifiers and takes their vote on the outcome. The most commonly classified class is the "true" class of the provided test sample. This indeed did increase accuracy, but not by as much as I had hoped.
 
-## Hope you enjoy chatting with this very simple chatbot :)
+###### Hope you enjoy chatting with this very simple chatbot :)
